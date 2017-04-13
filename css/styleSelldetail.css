@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,span,i,strong,b,img,h1,h2,h3,a,ul,li,dl,dt,dd,p{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#333;}
+img{ border:0 none; vertical-align:top;}
+html{ font-size:6.25rem;}
+body{ font-family:"微软雅黑"; color:#000; font-size:0.25rem; max-width:750px; min-width:320px; margin:0 auto;}
+.clearfix{ *zoom:l;}
+.clearfix:after{ content:'.'; visibility:hidden; clear:both; height:0; display:block;}
+
+#title{ width:100%; height:0.94rem; background:url(../images/tit-bg.png) no-repeat 0.35rem 0.26rem #242424; background-size:0.25rem 0.42rem;}
+#title h1{ font-size:0.32rem; text-align:center; line-height:0.94rem; color:#FFF;}
+
+#content{ background:#f1f1f1; height:11.05rem; border-bottom:0.01rem #c8c7cc solid;}
+#content img{ width:100%;}
+#content dd{ margin-top:0.15rem; border-bottom:0.01rem #c8c7cc solid; background:#FFF; color:#c7c7cd;}
+.name{ padding:0.19rem 0 0 0.45rem;}
+#content span{ display:block; color:#000; font-size:0.32rem;}
+#content .name span{ margin-left:0.04rem; line-height:0.7rem;}
+.name ul{ color:#999; font-size:0.26rem;}
+.name li{ float:left; line-height:0.48rem; margin-right:0.95rem;}
+.name b{ display:block; color:#d5d713; font-size:0.32rem; line-height:1.14rem;}
+.performance{ color:#c7c7cd; padding:0.29rem 0 0 0.29rem; height:1.2rem; line-height:0.32rem; font-size:0.24rem;}
+.performance b{ float:left; font-weight:500; width:0.7rem;}
+.performance p{ float:left; width:5.5rem; line-height:0.32rem;}
+.company{ padding:0.14rem 0 0 0.34rem; height:1.35rem;}
+#content .company span{ line-height:0.6rem;}
+.company i{ display:block; font-style:normal; color:#c1c1c1; font-size:; line-height:0.48rem;}
+
+#bottom{ height:1rem; background: url(../images/phone.png) no-repeat 2.48rem 0.28rem #f4f4f4; background-size:0.5rem 0.5rem; font-size:0.32rem;}
+#bottom a{ display:block; text-align:center; line-height:0.5rem; padding-top:0.28rem; color:#999;}
+
+
+
